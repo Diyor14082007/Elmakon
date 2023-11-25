@@ -1,0 +1,190 @@
+  body {
+    overflow-x: hidden;
+  }
+  
+  
+  aside img {
+    height: 450px;
+    width: 100%;
+  }
+  
+  .card1 img {
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+  }
+  
+  .card1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 300px;
+    gap: 15px;
+  }
+  
+  .slider5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 110px;
+  }
+  
+  
+  
+  
+  
+  .ota3 {
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 250px;
+  }
+  
+  .card3 h2 {
+    text-decoration: line-through;
+  }
+  
+  .smh h1 {
+    padding: 10px 170px;
+  }
+  
+  .card3 img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+  }
+  
+  
+  .foiz img {
+    width: 20%;
+    height: max-content;
+    position: relative;
+    left: 90px;
+    top: 70px;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .card3 {
+    border: 1px solid rgb(180, 180, 180);
+    padding: 0 20px;
+    text-align: center;
+    background-color: #fff;
+    color: rgb(89, 84, 84);
+    transition: 0.3s2;
+    height: 400px;
+  }
+  
+  .card3:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 8px rgba(34, 60, 80, 0.2);
+  }
+  
+  .card3 h1,
+  h2,
+  b {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .card3 h3 {
+    color: rgb(214, 1, 1);
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .card3 button {
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(38, 101, 247);
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  .tel,
+  .rasm1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  
+  .bbt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn1 {
+    width: 130px;
+    height: 40px;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #595959;
+  
+  }
+  
+  .hh1 {
+    margin: 0 250px;
+    margin-top: 50px;
+  }
+  
+  .end p {
+    margin: 0 250px;
+  }
+  
+  .ota-10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 250px;
+  }
+  
+  .chap5,
+  .ong5 {
+    width: 490px;
+    height: 215px;
+    margin: 0 0 10px 0;
+    background: #f6f6f6;
+    padding: 20px 20px 25px;
+    text-align: center;
+  }
+  
+  .email input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .email button{
+    width: 125px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(33, 109, 248);
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .chap5 p,.ong5 p{
+    color: #595959;
+  }
+
+  .chap5 h1,.ong5 h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .slick-arrow:before{
+    background: #000;
+
+  }

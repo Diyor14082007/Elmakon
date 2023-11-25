@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+  }
+  
+  
+  header img{
+    width: 100%;
+  }
+  
+  header{
+    display: flex;
+    justify-content: center;
+    padding: 0 170px;
+  }
+
+  
+  
+  .ota{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0 170px;
+  }
+  
+  .card h2{
+    text-decoration: line-through;
+  }
+  
+  .smh h1{
+    padding: 10px 170px;
+  }
+  
+  .card img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+  }
+  
+  .foiz img{
+    width: 20%;
+    height: max-content;
+    position: relative;
+    left: 90px;
+    top: 70px;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .card{
+    border: 1px solid rgb(180, 180, 180);
+    padding: 0 20px;
+    text-align: center;
+    background-color: #fff;
+    color: rgb(89, 84, 84);
+    transition: 0.3s2;
+  }
+  
+  .card:hover{
+    transition: 0.3s;
+    transform: scale(1.03);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 8px rgba(34, 60, 80, 0.2);
+  }
+  
+  .card h1,h2,b{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .card h3{
+    color: rgb(214, 1, 1);
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .card button{
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(38, 101, 247);
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  .left{
+    width: 500px;
+  }
+  
+  
+  .left img{
+    width: 100%;
+  }
+  
+  .parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 170px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .right{
+    width: 350px;
+    padding: 20px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 8px rgba(34, 60, 80, 0.2);
+    border-radius: 20px;
+  }
+  
+  .honor{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .honor h4{
+    font-size: 20px;
+    color: #333333;
+  }
+  
+  .uzs h2{
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  .uzs h3{
+    background-color: rgb(74, 74, 255);
+    border-radius: 6px;
+    padding: 6px 4px;
+    color: #fff;
+    font-size: 16px;
+    margin: 8px 0;
+    font-weight: 400;
+  }
+  
+  .uzs h1{
+    font-size: 18px;
+    color: green;
+    font-weight: 400;
+  }
+  
+  .svt{
+    width: 310px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(244, 51, 51);
+  }
+  
+  .mdt{
+    width: 310px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(0, 64, 255);
+  }
+  
+  .right h5{
+    font-size: 20px;
+    padding: 6px;
+  }
+  
+  .im{
+    width: 50%;
+    padding: 10px 0;
+  }
+  
+  footer{
+    background-color: #007aff;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 20px 170px;
+    margin-top: 30px;
+  }
+  
+  footer h1{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  footer a{
+    color: #fff;
+    font-weight: 200;
+  }
